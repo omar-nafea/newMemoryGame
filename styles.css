@@ -40,14 +40,7 @@ body {
     flex-wrap: wrap;
     margin: 5% auto;
 }
-@media screen {
-    .memory-game-blocks {
-          display: flex;
-          width: 880px;
-          flex-wrap: wrap;
-          margin: 100% auto;
-    }
-}
+
 .memory-game-blocks.no-clicking {
     pointer-events: none;
 }
@@ -98,4 +91,13 @@ body {
 .memory-game-blocks .game-block.has-match {
     transform: rotateY(180deg);
     pointer-events: none;
+}
+
+@media screen and (max-width: 600px) {
+    .memory-game-blocks {
+        display: flex;
+        width: 880px;
+        flex-wrap: wrap;
+        margin: 100% auto;
+    }
 }
