@@ -42,10 +42,10 @@ body {
 }
 @media screen {
     .memory-game-blocks {
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        margin: 40% auto;
+          display: flex;
+          width: 880px;
+          flex-wrap: wrap;
+          margin: 100% auto;
     }
 }
 .memory-game-blocks.no-clicking {
