@@ -40,7 +40,14 @@ body {
     flex-wrap: wrap;
     margin: 5% auto;
 }
-
+@media screen {
+    .memory-game-blocks {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 40% auto;
+    }
+}
 .memory-game-blocks.no-clicking {
     pointer-events: none;
 }
